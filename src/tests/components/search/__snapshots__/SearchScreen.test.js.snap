@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchScreen /> debe de mostar un error si no se encuentra el heroe 1`] = `
+<div>
+  <h1>
+    SearchScreen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+         Search Form 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="search"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batmanadas"
+        />
+        <button
+          className="btn btn-outline-secondary mt-3 w-100"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="error-no-data"
+      >
+        No hay data
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SearchScreen /> debe de mostrarse correctamente con valores por defecto 1`] = `
+<div>
+  <h1>
+    SearchScreen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+         Search Form 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="search"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-outline-secondary mt-3 w-100"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="error-no-data"
+      >
+        No hay data
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SearchScreen /> simular ruta con argumento en url 1`] = `
+<div>
+  <h1>
+    SearchScreen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+         Search Form 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="search"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="btn btn-outline-secondary mt-3 w-100"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <p
+        className="card-heroe-one"
+        key="dc-batman"
+      >
+        Batman
+      </p>
+    </div>
+  </div>
+</div>
+`;
